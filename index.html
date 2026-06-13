@@ -18,3 +18,144 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>운테리어 | 행운을 디자인하다</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo-icon">🐢</span>
+        운테리어
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#service">서비스</a></li>
+        <li><a href="#program">프로그램</a></li>
+        <li><a href="#contact">문의</a></li>
+      </ul>
+
+      <button class="nav-btn" onclick="scrollToSection('contact')">
+        참여하기
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="badge">울산 청년과 직장인을 위한 행운 프로젝트</p>
+        <h1>
+          당신의 공간에<br />
+          <span>작은 행운</span>을 더하다
+        </h1>
+        <p class="hero-desc">
+          운테리어는 행운을 테마로 한 감성 콘텐츠와 모임을 통해
+          일상에 새로운 에너지와 연결을 만드는 청년 커뮤니티입니다.
+        </p>
+
+        <div class="hero-buttons">
+          <button onclick="scrollToSection('service')" class="primary-btn">
+            서비스 보기
+          </button>
+          <button onclick="scrollToSection('about')" class="secondary-btn">
+            브랜드 소개
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="turtle">🐢</div>
+        <h2>Lucky Interior</h2>
+        <p>행운의 편지 · 소원 카드 · 감성 포스터 · 청년 모임</p>
+        <div class="clovers">
+          <span>🍀</span><span>💌</span><span>✨</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <p class="section-label">ABOUT</p>
+      <h2>운테리어는 무엇인가요?</h2>
+      <p>
+        운테리어는 ‘운’과 ‘인테리어’를 결합한 브랜드입니다.
+        거창한 변화보다, 오늘의 기분을 살짝 바꾸는 작은 행운을 제안합니다.
+        귀여운 거북이 캐릭터와 행운의 편지, 소원 카드, 감성 포스터를 통해
+        청년들이 서로를 응원하고 연결될 수 있는 장면을 만듭니다.
+      </p>
+    </section>
+
+    <section id="service" class="section">
+      <p class="section-label">SERVICE</p>
+      <h2>운테리어가 만드는 것들</h2>
+
+      <div class="card-grid">
+        <div class="info-card">
+          <div class="card-icon">💌</div>
+          <h3>행운의 편지</h3>
+          <p>나의 소원과 응원의 말을 적어 서로에게 전달하는 감성 콘텐츠입니다.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">🍀</div>
+          <h3>소원 카드</h3>
+          <p>짧지만 진심이 담긴 문장으로 오늘의 마음을 기록합니다.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">🐢</div>
+          <h3>거북이 캐릭터</h3>
+          <p>느리지만 단단하게 행운을 전하는 운테리어의 상징입니다.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">🌿</div>
+          <h3>청년 커뮤니티</h3>
+          <p>울산 청년과 직장인이 자연스럽게 연결되는 모임을 지향합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="section program">
+      <div>
+        <p class="section-label">PROGRAM</p>
+        <h2>신규 멤버 모집 중</h2>
+        <p>
+          운테리어는 행운, 감성, 자기표현, 관계 형성을 주제로
+          다양한 오프라인 활동을 준비하고 있습니다.
+        </p>
+      </div>
+
+      <div class="program-box">
+        <ul>
+          <li>행운의 편지 쓰기</li>
+          <li>소원 카드 제작</li>
+          <li>감성 포스터 전시</li>
+          <li>청년 네트워킹 모임</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">CONTACT</p>
+      <h2>운테리어와 함께할래요?</h2>
+      <p>아래 버튼을 눌러 신청 링크나 인스타그램으로 연결할 수 있습니다.</p>
+
+      <a href="#" class="contact-btn">참여 신청하기</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 운테리어. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
